@@ -1,5 +1,5 @@
 /*
-Copyright © 2011 David Palacio <dpalacio@orbitalibre.org>
+Copyright © 2013 David Palacio <dpalacio@orbitalibre.org>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU Library General Public License as
@@ -16,6 +16,8 @@ License along with this program; if not, write to the
 Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
+
+
 
 var createBrush = function(color) {
   var pen = new QPen()
@@ -49,7 +51,6 @@ var loadFinished = function(success) {
 }
 
 var view = new WebView()
-//view.url = Url("http://supergenpass.com/mobile/")
 view.url = Url(plasmoid.file("data", "supergenpass.html"))
 view.minimumSize = QSizeF(200,400)
 view.loadFinished.connect(loadFinished)
