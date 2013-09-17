@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=SuperGenPass
+Comment=Supergenpass Mobile
+Type=Service
+ServiceTypes=Plasma/Applet,Plasma/PopupApplet
+Icon=kgpg
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+X-Plasma-DefaultSize=200,400
+
+X-KDE-PluginInfo-Author=Ron Mahoney
+X-KDE-PluginInfo-Email=rmahoney249@gmail.com
+X-KDE-PluginInfo-Name=supergenpass-plasmoid
+X-KDE-PluginInfo-Version=0.1
+#X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Online Services
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-NotificationArea=true
+
